@@ -1,0 +1,29 @@
+/* 全局样式 /
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/ 导航样式 /
+nav {
+background-color: #f4f4f4;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+nav a {
+margin-right: 15px;
+text-decoration: none;
+color: #333;
+}
+
+/ 项目卡片样式 */
+.project-card {
+border: 1px solid #ddd;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+}
