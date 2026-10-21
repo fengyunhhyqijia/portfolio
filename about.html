@@ -3,23 +3,1381 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于我 - 个人作品集</title>
+    <title>便前宝 · 8 mm 智能枕垫，提前一分钟读懂宝宝｜安徽云峰智能装备</title>
+    <meta name="description" content="便前宝是安徽云峰智能装备有限公司推出的智能育儿产品：一张 8 mm 薄枕垫，以脑电、压力、温湿度三路感知与端侧 AI，在宝宝排便、排尿前 60–120 秒提醒看护者。">
+    <meta name="theme-color" content="#050B1A">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B1A2E'/%3E%3Crect x='11' y='23' width='38' height='18' rx='6' fill='%23F9C6DE' stroke='%23F472B6' stroke-width='2'/%3E%3Ccircle cx='48' cy='29' r='2.2' fill='%2322D3EE'/%3E%3Ccircle cx='48' cy='35' r='2.2' fill='%23FBBF24'/%3E%3C/svg%3E">
+    <script>
+        document.documentElement.classList.add("js");
+        window.__aboutReady = false;
+        window.setTimeout(function () {
+            if (!window.__aboutReady) document.documentElement.classList.remove("js");
+        }, 2500);
+    </script>
 </head>
 <body>
-    <h1>关于我</h1>
-    <p>你好！这是生产“蔼床”——护理用床形机器人的安徽云峰智能装备有限公司</p>
+    <a class="skip-link" href="#main">跳到主要内容</a>
 
-    <h2>技能</h2>
-    <ul>
-        <li>HTML / CSS / JavaScript</li>
-        <li>版本控制 Git</li>
-        <li>响应式网页设计</li>
-    </ul>
+    <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
 
-    <h2>经历</h2>
-    <p>我通过自学和实践积累了丰富的项目经验。</p>
+    <header class="nav" id="siteNav">
+        <div class="wrap nav__inner">
+            <a class="brand" href="index.html" aria-label="安徽云峰智能装备有限公司 · 返回首页">
+                <span class="brand__mark" aria-hidden="true">峰</span>
+                <span class="brand__text">
+                    <span class="brand__name">云峰智能 · 便前宝</span>
+                    <span class="brand__sub">Anhui Yunfeng Intelligent Equipment</span>
+                </span>
+            </a>
 
-    <p><a href="index.html">返回首页</a></p>
-<p style="text-align: center;">版权所有© 2026 我的作品集</p >
+            <button class="nav__toggle" id="navToggle" aria-label="展开导航菜单" aria-expanded="false" aria-controls="navLinks">
+                <span aria-hidden="true"></span>
+            </button>
+
+            <ul class="nav__links" id="navLinks">
+                <li><a href="#pain">痛点</a></li>
+                <li><a href="#design">产品</a></li>
+                <li><a href="#tech">技术</a></li>
+                <li><a href="#data">数据</a></li>
+                <li><a href="#safety">安全</a></li>
+                <li><a href="#business">商业</a></li>
+                <li><a href="#company">公司</a></li>
+                <li><a href="index.html">首页</a></li>
+            </ul>
+
+            <a class="nav__cta" href="#contact">预约体验</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- ================= 首屏 ================= -->
+        <section class="hero" id="overview">
+            <div class="wrap hero__grid">
+                <div class="hero__copy">
+                    <p class="hero__meta">
+                        <span class="dot" aria-hidden="true"></span>
+                        PAD 01 · 2026 · V1.0
+                        <span class="sep" aria-hidden="true">｜</span>
+                        脑机接口 · 智能育儿产品线
+                    </p>
+
+                    <h1>便前宝</h1>
+                    <p class="hero__title-sub">一张薄薄的枕垫，<span>提前一分钟</span>读懂宝宝</p>
+
+                    <p class="hero__lead">
+                        宝宝不需要穿戴任何东西。躺下的那一刻，枕垫开始读取皮层电活动、压力与微环境，
+                        端侧 AI 在排便或排尿发生前 <strong>60–120 秒</strong>提醒看护者——
+                        把“随时待命”的不确定等待，变成可以计划的 60 秒。
+                    </p>
+
+                    <div class="chips hero__chips">
+                        <span class="chip" style="--accent: var(--cyan)">零穿戴</span>
+                        <span class="chip" style="--accent: var(--teal)">提前 ≥ 60 秒</span>
+                        <span class="chip" style="--accent: var(--violet)">灵敏度 91.8%</span>
+                        <span class="chip" style="--accent: var(--pink)">8 mm 超薄</span>
+                    </div>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#design">
+                            了解产品
+                            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                        <a class="btn btn--ghost" href="#contact">预约体验</a>
+                    </div>
+                </div>
+
+                <div class="hero__visual">
+                    <div class="shot">
+                        <img src="assets/pad-hero.jpg" width="1420" height="520"
+                             alt="便前宝智能枕垫产品示意：樱花粉色的 8 mm 枕垫，右端侧面设有 LED 指示灯与接口，外置电池与 SOM 模组经柔性连线接入">
+                        <span class="float-chip float-chip--a">端侧推理 · 无需联网</span>
+                        <span class="float-chip float-chip--b">断网仍可预警</span>
+                    </div>
+                    <p class="shot__cap">8 mm 超薄枕垫 · 樱花粉 · 外置电池 + SOM 模组经柔性连线接入右端侧面（示意图）</p>
+                </div>
+            </div>
+
+            <div class="wrap">
+                <div class="kpis">
+                    <div class="kpi" style="--accent: var(--cyan)">
+                        <div class="kpi__value"><span data-count="88.6" data-decimals="1">88.6</span><small>%</small></div>
+                        <div class="kpi__label">窗口级平衡准确率</div>
+                        <div class="kpi__note">60 名婴幼儿 · 独立五折验证</div>
+                    </div>
+                    <div class="kpi" style="--accent: var(--teal)">
+                        <div class="kpi__value"><span data-count="91.8" data-decimals="1">91.8</span><small>%</small></div>
+                        <div class="kpi__label">事件级灵敏度</div>
+                        <div class="kpi__note">605 / 659 次事件 · 跨婴幼儿 ±4.6%</div>
+                    </div>
+                    <div class="kpi" style="--accent: var(--violet)">
+                        <div class="kpi__value"><span data-count="0.21" data-decimals="2">0.21</span><small>次/时</small></div>
+                        <div class="kpi__label">每小时虚警</div>
+                        <div class="kpi__note">预算 ≤ 0.25 次/时</div>
+                    </div>
+                    <div class="kpi" style="--accent: var(--amber)">
+                        <div class="kpi__value"><span data-count="87" data-decimals="0">87</span><small>s</small></div>
+                        <div class="kpi__label">提前量中位数</div>
+                        <div class="kpi__note">IQR 73–103 秒</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 01 机会｜痛点 ================= -->
+        <section class="section" id="pain">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">01 · 机会｜痛点</p>
+                    <h2>宝宝说不出口的需求，正在消耗全家人的精力</h2>
+                    <p class="sec-sub">
+                        膀胱与直肠充盈是内部感受，婴幼儿既不能说，也无法主动示意。现有产品只在“已经发生”之后报警，
+                        而看护者真正被消耗的，是全天候无法离开的注意力。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="grid grid--3">
+                    <article class="card pain-card" style="--accent: var(--cyan)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">A</span>
+                            <h3 class="card__title">无法表达</h3>
+                        </div>
+                        <p class="card__text">膀胱与直肠充盈是内部感受，婴幼儿既不能说，也无法主动示意，看护者只能靠猜。</p>
+                    </article>
+
+                    <article class="card pain-card" style="--accent: var(--teal)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">B</span>
+                            <h3 class="card__title">事后才知道</h3>
+                        </div>
+                        <p class="card__text">现有尿湿产品只能在“已经发生”后报警，皮肤与尿液接触常常已 10–30 分钟。</p>
+                    </article>
+
+                    <article class="card pain-card" style="--accent: var(--violet)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">C</span>
+                            <h3 class="card__title">精力消耗</h3>
+                        </div>
+                        <p class="card__text">日均 10–20 次排尿、每次更换 5–10 分钟；夜间频繁起床，家长长期“随时待命”。</p>
+                    </article>
+
+                    <article class="card pain-card" style="--accent: var(--amber)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">D</span>
+                            <h3 class="card__title">训练被耽误</h3>
+                        </div>
+                        <p class="card__text">
+                            传统尿不湿产品错过如厕训练的“准备性信号”，孩子自主如厕建立变慢，亲子焦虑增加。
+                            从低月龄建立“姿势—排便”映射，能说话了就可以主动告诉长辈自己的排便需求。
+                        </p>
+                    </article>
+
+                    <article class="card pain-card" style="--accent: var(--pink)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">E</span>
+                            <h3 class="card__title">机构压力</h3>
+                        </div>
+                        <p class="card__text">托育机构按 1:3–1:5 配比照护，频繁更换占用大量人工，护理难以标准化。</p>
+                    </article>
+
+                    <article class="card card--accent pain-card" data-reveal>
+                        <p class="panel__label" style="margin-bottom: 12px">一句话总结</p>
+                        <p class="quote" style="font-size: 17px; line-height: 1.95">
+                            所有现有方案，<br>都在回答“<em>尿了吗？</em>”<br>
+                            <span style="display: inline-block; margin-top: 12px; color: var(--muted); font-size: 14px; letter-spacing: .04em">家长真正想问的是</span><br>
+                            “<em>什么时候要拉？</em>”
+                        </p>
+                    </article>
+                </div>
+
+                <div class="panel" style="margin-top: 22px" data-reveal>
+                    <div class="panel__label">看护者的一天</div>
+                    <div class="stat-band" style="margin-top: 16px">
+                        <div class="stat">
+                            <div class="stat__num" style="--accent: var(--cyan)">14 <small>次</small></div>
+                            <div class="stat__label">每天查看尿裤</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__num" style="--accent: var(--teal)">6 <small>次</small></div>
+                            <div class="stat__label">每天更换</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__num" style="--accent: var(--violet)">2 <small>次</small></div>
+                            <div class="stat__label">夜间起床</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat__num" style="--accent: var(--amber)">47 <small>分钟</small></div>
+                            <div class="stat__label">平均被打断一次</div>
+                        </div>
+                    </div>
+                    <p class="card__text" style="margin-top: 20px">
+                        真正的痛点不是“换得累”，而是“<span class="hl">不知道下一次什么时候来</span>”——整段时间都不敢离开。
+                    </p>
+                    <p class="note">口径：典型 6–24 月龄家庭，内部访谈整理。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 02 产品｜形态 ================= -->
+        <section class="section" id="design">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">02 · 产品｜形态</p>
+                    <h2>一张 8 mm 的薄枕垫：铺上就用，宝宝零负担</h2>
+                    <p class="sec-sub">
+                        它首先是一张好睡的枕头：300 × 240 × 8 mm、320 g，替换现有婴儿枕即可升级；
+                        其次才是一台贴身的感知设备——宝宝不需要戴任何东西，也不用改变睡姿。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="product-grid">
+                    <div data-reveal>
+                        <div class="shot hotspot-map">
+                            <img src="assets/pad-top.jpg" width="1350" height="690"
+                                 alt="便前宝枕垫俯视示意：中央为 16 触点柔性干电极阵列，四周分布压力阵列与温湿度传感点，右端为 LED 与外置模组接口">
+
+                            <button class="hotspot" type="button" data-hs="0" aria-pressed="true"
+                                    style="left: 38%; top: 47%" aria-label="查看 1 号：柔性干电极阵列">1</button>
+                            <button class="hotspot" type="button" data-hs="1" aria-pressed="false"
+                                    style="left: 60%; top: 30%" aria-label="查看 2 号：压力阵列">2</button>
+                            <button class="hotspot" type="button" data-hs="2" aria-pressed="false"
+                                    style="left: 9.6%; top: 21%" aria-label="查看 3 号：温湿度传感点">3</button>
+                            <button class="hotspot" type="button" data-hs="3" aria-pressed="false"
+                                    style="left: 69.4%; top: 46%" aria-label="查看 4 号：LED 与连接口">4</button>
+                            <button class="hotspot" type="button" data-hs="4" aria-pressed="false"
+                                    style="left: 85%; top: 68%" aria-label="查看 5 号：外置电池与 SOM 模组">5</button>
+                        </div>
+
+                        <div class="hs-detail" aria-live="polite">
+                            <p class="hs-detail__title" id="hsTitle">① 柔性干电极阵列</p>
+                            <p class="hs-detail__text" id="hsText">16 触点，居中均匀分布。后枕与颈侧自然贴合中部阵列，采集皮层电活动。</p>
+                        </div>
+                    </div>
+
+                    <div data-reveal>
+                        <div class="chips" style="margin-bottom: 8px">
+                            <span class="chip" style="--accent: var(--cyan)">零穿戴</span>
+                            <span class="chip" style="--accent: var(--teal)">8 mm 超薄</span>
+                            <span class="chip" style="--accent: var(--pink)">樱花粉可拆洗</span>
+                            <span class="chip" style="--accent: var(--amber)">端面 LED + 接口</span>
+                        </div>
+
+                        <ul class="spec-list">
+                            <li><span class="k">尺寸</span><span class="v"><b>300 × 240 × 8 mm</b>，与普通婴儿枕厚度、手感接近</span></li>
+                            <li><span class="k">重量</span><span class="v"><b>320 g</b></span></li>
+                            <li><span class="k">配色</span><span class="v">樱花粉 / 象牙白 / 浅海蓝</span></li>
+                            <li><span class="k">外套</span><span class="v">A 类婴幼儿级纺织品，可拆洗；电子层独立密封</span></li>
+                            <li><span class="k">感知</span><span class="v">16 触点柔性干电极 + 35 点压力阵列 + 4 点温湿度</span></li>
+                            <li><span class="k">连接</span><span class="v">外置电池与 SOM 模组，经柔性连线接入右端侧面</span></li>
+                            <li><span class="k">续航</span><span class="v">电池供电连续运行 <b>2.5 小时以上</b>，外接电源可长时使用</span></li>
+                            <li><span class="k">提醒</span><span class="v">端面 3 颗低亮 LED + App / 床头灯 / 音箱 / 轻震</span></li>
+                        </ul>
+
+                        <p class="note">
+                            电池与 SOM 模组为<b>外置件</b>，经柔性连线接入右端侧面（LED 旁），不放入垫内——
+                            既降低垫体厚度与发热，也让外套可以整件拆洗。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="band" data-reveal>
+                    <span class="band__k">CHANNEL</span>
+                    <p><strong>形态即渠道：</strong>枕垫是母婴店、月子中心、托育机构的标配品类，替换现有婴儿枕即可升级，不需要教育用户接受一种全新的穿戴设备。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 03 产品｜结构 ================= -->
+        <section class="section" id="structure">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">03 · 产品｜结构</p>
+                    <h2>五层结构：把 AI 装进一张薄垫</h2>
+                    <p class="sec-sub">
+                        从上到下五层，各司其职。亲肤层负责“愿意躺”，电极层负责“读得到”，压力与温湿度层负责“读得准”，
+                        柔性电路负责“送得出”，防滑底衬负责“不移位”。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="layers-wrap">
+                    <div class="layer-stack">
+                        <article class="layer" style="--accent: var(--pink)" data-reveal>
+                            <span class="layer__num">01</span>
+                            <div>
+                                <h3 class="layer__name">亲肤面料层</h3>
+                                <p class="layer__desc">亲肤、透气、可拆洗；外套独立，脏了直接换新，不必整机返厂。</p>
+                            </div>
+                            <span class="layer__tag">A 类婴幼儿级 · 樱花粉 / 象牙白</span>
+                        </article>
+
+                        <article class="layer" style="--accent: var(--cyan)" data-reveal>
+                            <span class="layer__num">02</span>
+                            <div>
+                                <h3 class="layer__name">柔性干电极阵列</h3>
+                                <p class="layer__desc">16 触点居中均匀分布，对应后枕与颈侧，贴合稳定、不需要导电膏。</p>
+                            </div>
+                            <span class="layer__tag">16 触点 · 干电极 · 可弯折</span>
+                        </article>
+
+                        <article class="layer" style="--accent: var(--teal)" data-reveal>
+                            <span class="layer__num">03</span>
+                            <div>
+                                <h3 class="layer__name">压力 + 温湿度层</h3>
+                                <p class="layer__desc">压力全覆盖 35 点；温湿度 4 点，只做微环境与漂移补偿，不感知排泄物。</p>
+                            </div>
+                            <span class="layer__tag">压力 35 点 · 温湿度 4 点</span>
+                        </article>
+
+                        <article class="layer" style="--accent: var(--amber)" data-reveal>
+                            <span class="layer__num">04</span>
+                            <div>
+                                <h3 class="layer__name">柔性电路与连接接口</h3>
+                                <p class="layer__desc">右端侧面接口 + 3 颗 1.5 mm LED，正面无光；走线随垫体弯折。</p>
+                            </div>
+                            <span class="layer__tag">右端接口 · 3 颗 LED · 正面无光</span>
+                        </article>
+
+                        <article class="layer" style="--accent: var(--green)" data-reveal>
+                            <span class="layer__num">05</span>
+                            <div>
+                                <h3 class="layer__name">防滑底衬</h3>
+                                <p class="layer__desc">透气网布，躺卧翻身也能保持位置，整垫厚度压到 8 mm。</p>
+                            </div>
+                            <span class="layer__tag">透气网布 · 不移位</span>
+                        </article>
+                    </div>
+
+                    <aside class="layer-side" data-reveal>
+                        <h3>为什么放进枕垫里？</h3>
+                        <p>
+                            后枕与颈侧是躺卧时最自然、最稳定的接触面——<span class="hl">不增加穿戴负担，也不改变睡眠姿势</span>。
+                            相比手环、头带或贴片，枕垫不需要家长“记得给宝宝戴”，也不会被宝宝拽掉。
+                        </p>
+
+                        <div class="cross-section" aria-hidden="true">
+                            <i style="--accent: var(--pink)"></i>
+                            <i style="--accent: var(--cyan)"></i>
+                            <i style="--accent: var(--teal)"></i>
+                            <i style="--accent: var(--amber)"></i>
+                            <i style="--accent: var(--green)"></i>
+                        </div>
+
+                        <p>
+                            电子层独立密封，外套可整件拆洗；<span class="hl">电池与 SOM 模组为外置件</span>，
+                            经柔性连线接入右端侧面（LED 旁），不放入垫内，进一步控制厚度与发热。
+                        </p>
+                        <p class="note" style="margin-top: 16px">
+                            注：结构示意用于说明分层关系，最终形态以打样与可靠性测试结果为准。
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 04 使用｜流程 ================= -->
+        <section class="section" id="workflow">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">04 · 使用｜流程</p>
+                    <h2><span class="nowrap">宝宝躺下 →</span> <span class="nowrap">垫子感知 →</span> <span class="nowrap">一分钟前提醒</span></h2>
+                    <p class="sec-sub">
+                        整条链路在本地完成：采集、处理、推理、决策都在随附模组里发生。
+                        没有“先上传云端再等结果”，也不需要网络。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="flow">
+                    <article class="flow-step" data-reveal>
+                        <p class="flow-step__label">STEP 1</p>
+                        <h3>躺下即感知</h3>
+                        <p>后枕与颈侧自然贴合中部电极阵列，采集皮层电活动；压力层覆盖整垫，感知在垫、体动与呼吸。</p>
+                        <p class="flow-step__foot">零穿戴 · 无需调整睡姿</p>
+                    </article>
+
+                    <article class="flow-step" data-reveal>
+                        <p class="flow-step__label">STEP 2</p>
+                        <h3>端侧 AI 判断</h3>
+                        <p>低功耗 SoC 本地完成信号处理与神经网络推理，不需要联网。</p>
+                        <p class="flow-step__foot">端侧推理 · 无需联网 · 全链路本地</p>
+                    </article>
+
+                    <article class="flow-step" data-reveal>
+                        <p class="flow-step__label">STEP 3</p>
+                        <h3>提前一分钟提醒</h3>
+                        <p>预测到即将排便或排尿，提前 60–120 秒通过 App、床头灯或音箱提醒看护者。</p>
+                        <p class="flow-step__foot">提前 60–120 s · 连续两窗确认</p>
+                    </article>
+                </div>
+
+                <div class="panel" style="margin-top: 24px" data-reveal>
+                    <div class="panel__label">为什么能提前</div>
+                    <p class="card__text" style="margin-top: 12px; font-size: 15px">
+                        膀胱与直肠充盈是“斜坡式”累积过程，事件发生前数十秒，皮层状态已出现可解码的变化——
+                        <span class="hl">我们读的不是尿裤，而是大脑给出的早期信号。</span>
+                    </p>
+
+                    <div class="grid grid--4 grid--mini" style="margin-top: 20px">
+                        <div class="mini" style="--accent: var(--cyan)">
+                            <div class="mini__v">60–120 <span style="font-size: 12px">s</span></div>
+                            <div class="mini__k">提前量区间</div>
+                        </div>
+                        <div class="mini" style="--accent: var(--teal)">
+                            <div class="mini__v">2 <span style="font-size: 12px">窗</span></div>
+                            <div class="mini__k">连续两窗触发</div>
+                        </div>
+                        <div class="mini" style="--accent: var(--violet)">
+                            <div class="mini__v">5 <span style="font-size: 12px">min</span></div>
+                            <div class="mini__k">同一事件不重复打扰</div>
+                        </div>
+                        <div class="mini" style="--accent: var(--pink)">
+                            <div class="mini__v">0 <span style="font-size: 12px">次</span></div>
+                            <div class="mini__k">原始数据上云</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 38px" data-reveal>
+                    <h3 style="font-size: clamp(20px, 2.2vw, 26px)">从开箱到成长：五个阶段，越用越懂你家宝宝</h3>
+                    <div class="loop">
+                        <div class="loop-item">
+                            <div class="loop-dot" aria-hidden="true"></div>
+                            <h4>铺上</h4>
+                            <p>替换现有婴儿枕，厚度与手感接近普通枕头，开箱即用。</p>
+                            <p class="t">第 0 天</p>
+                        </div>
+                        <div class="loop-item">
+                            <div class="loop-dot" aria-hidden="true"></div>
+                            <h4>自动连接</h4>
+                            <p>首次开机自动配对手机，完成自适应，无需任何设置。</p>
+                            <p class="t">第 2 天</p>
+                        </div>
+                        <div class="loop-item">
+                            <div class="loop-dot" aria-hidden="true"></div>
+                            <h4>日常使用</h4>
+                            <p>自然作息下连续记录，形成节律画像，不改变带娃习惯。</p>
+                            <p class="t">第 2 周</p>
+                        </div>
+                        <div class="loop-item">
+                            <div class="loop-dot" aria-hidden="true"></div>
+                            <h4>一分钟预警</h4>
+                            <p>提前 60–120 秒提醒，留出抱起与准备时间；同步评估如厕准备度。</p>
+                            <p class="t">第 1 月</p>
+                        </div>
+                        <div class="loop-item">
+                            <div class="loop-dot" aria-hidden="true"></div>
+                            <h4>成长报告</h4>
+                            <p>排尿 / 排便节律与如厕准备度评分，模型随月龄升级。</p>
+                            <p class="t">持续</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="band" data-reveal>
+                    <span class="band__k">LOW&nbsp;NOISE</span>
+                    <p>
+                        <strong>低打扰是设计底线：</strong>只在“高置信 + 连续两窗”时提醒，并设 5 分钟不应期；非预测窗口保持安静。
+                        对看护者而言，产品价值不是“更多提醒”，而是“更少焦虑”。所有提醒均可分级：提示音 / 轻震 / 床头灯颜色，家长可按家庭习惯选择。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 05 技术｜链路 ================= -->
+        <section class="section" id="tech">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">05 · 技术｜链路</p>
+                    <h2>从皮肤到提醒：<span class="nowrap">一条本地闭环信号链</span></h2>
+                    <p class="sec-sub">
+                        六段链路全部落在随附模组内。电生理负责“预测”，压力负责“门控”，温湿度负责“补偿”——
+                        三路信号由同一时钟打时间戳，偏差小于 1 ms。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="chain">
+                    <div class="chain-node" data-reveal>
+                        <p class="chain-node__i">01</p>
+                        <h4>柔性电极</h4>
+                        <p>16 触点
+后枕 / 颈侧</p>
+                    </div>
+                    <div class="chain-node" data-reveal>
+                        <p class="chain-node__i">02</p>
+                        <h4>模拟前端</h4>
+                        <p>0.5–45 Hz
+250 Hz 采样 · 24 位</p>
+                    </div>
+                    <div class="chain-node" data-reveal>
+                        <p class="chain-node__i">03</p>
+                        <h4>数字处理</h4>
+                        <p>重采样 50 Hz
+50 Hz 工频抑制</p>
+                    </div>
+                    <div class="chain-node" data-reveal>
+                        <p class="chain-node__i">04</p>
+                        <h4>端侧推理</h4>
+                        <p>本地 SoC
+无需联网</p>
+                    </div>
+                    <div class="chain-node" data-reveal>
+                        <p class="chain-node__i">05</p>
+                        <h4>决策层</h4>
+                        <p>连续两窗
+5 min 不应期</p>
+                    </div>
+                    <div class="chain-node" data-reveal>
+                        <p class="chain-node__i">06</p>
+                        <h4>提醒</h4>
+                        <p>App / 灯光
+语音 / 轻震</p>
+                    </div>
+                </div>
+
+                <div class="grid grid--3" style="margin-top: 18px">
+                    <article class="card" style="--accent: var(--cyan)" data-reveal>
+                        <h3 class="card__title">三路信号各司其职</h3>
+                        <p class="card__text" style="margin-top: 10px">
+                            电生理负责“预测”；压力负责“在垫 / 体动 / 呼吸”门控；温湿度只做微环境与漂移补偿——不感知排泄物。
+                        </p>
+                    </article>
+                    <article class="card" style="--accent: var(--teal)" data-reveal>
+                        <h3 class="card__title">硬件同步</h3>
+                        <p class="card__text" style="margin-top: 10px">
+                            三路信号由同一时钟打时间戳，偏差小于 1 ms，保证“事件前 60–120 秒”的标注准确。
+                        </p>
+                    </article>
+                    <article class="card" style="--accent: var(--violet)" data-reveal>
+                        <h3 class="card__title">全链路本地</h3>
+                        <p class="card__text" style="margin-top: 10px">
+                            外置电池 + SOM 模组经柔性连线接入右端侧面；采集、处理、推理在随附模组内完成，断网仍可预警。
+                        </p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= 06 实测｜数据 ================= -->
+        <section class="section" id="data">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">06 · 实测｜数据</p>
+                    <h2><span class="nowrap">60 名婴幼儿</span>、<span class="nowrap">648.7 小时</span><span class="nowrap">真实记录</span>、<span class="nowrap">659 次事件</span></h2>
+                    <p class="sec-sub">
+                        这份数据的价值不在“多”，而在“真”：自然情境下的连续记录，让“事件前 60–120 秒”的标注成为可能，
+                        也让模型学到的不是实验室里的理想信号。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="stat-band" data-reveal>
+                    <div class="stat">
+                        <div class="stat__num" style="--accent: var(--cyan)">60 <small>名</small></div>
+                        <div class="stat__label">6–24 月龄健康婴幼儿</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num" style="--accent: var(--teal)">648.7 <small>h</small></div>
+                        <div class="stat__label">可用自然情境记录</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num" style="--accent: var(--violet)">659 <small>次</small></div>
+                        <div class="stat__label">排泄意图事件真值</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat__num" style="--accent: var(--amber)">9.9 <small>%</small></div>
+                        <div class="stat__label">整体剔除率</div>
+                    </div>
+                </div>
+
+                <div class="table-wrap" style="margin-top: 22px" data-reveal>
+                    <div class="table-scroll">
+                        <table>
+                            <caption>数据集口径 · 内部试验记录</caption>
+                            <thead>
+                                <tr><th scope="col">项目</th><th scope="col">规模与口径</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>受试者</td>
+                                    <td>60 名 6–24 月龄健康婴幼儿（男 34 / 女 26）</td>
+                                </tr>
+                                <tr>
+                                    <td>记录规模</td>
+                                    <td>每人 3 次 × 约 4 小时自然情境记录：720.0 h 原始，648.7 h 可用（剔除 9.9%）</td>
+                                </tr>
+                                <tr>
+                                    <td>事件真值</td>
+                                    <td>659 次排泄意图表达（546 排尿 + 113 排便），验证阶段用尿裤传感贴片 + 视频 + 日志三对照</td>
+                                </tr>
+                                <tr>
+                                    <td>评测方式</td>
+                                    <td>婴幼儿独立五折交叉验证（每折 12 名），测试集 1:1:1 均衡，随机种子固定</td>
+                                </tr>
+                                <tr>
+                                    <td>同步精度</td>
+                                    <td>三路信号由同一时钟打时间戳，偏差 &lt;1 ms；传感器与视频一致性 ±0.9 s</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="grid grid--4 grid--mini" style="margin-top: 18px">
+                    <div class="mini" style="--accent: var(--cyan)">
+                        <div class="mini__v">0.9 ms</div>
+                        <div class="mini__k">三路同步误差 &lt;1 ms</div>
+                    </div>
+                    <div class="mini" style="--accent: var(--teal)">
+                        <div class="mini__v">1.8 s</div>
+                        <div class="mini__k">传感器—视频一致性 ±0.9 s</div>
+                    </div>
+                    <div class="mini" style="--accent: var(--violet)">
+                        <div class="mini__v">7 ×</div>
+                        <div class="mini__k">每事件正类窗口数</div>
+                    </div>
+                    <div class="mini" style="--accent: var(--amber)">
+                        <div class="mini__v">546 / 113</div>
+                        <div class="mini__k">排尿 / 排便事件</div>
+                    </div>
+                </div>
+
+                <div class="kpis" style="margin-top: 30px">
+                    <div class="kpi" style="--accent: var(--cyan)">
+                        <div class="kpi__value"><span data-count="88.6" data-decimals="1">88.6</span><small>%</small></div>
+                        <div class="kpi__label">窗口级平衡准确率</div>
+                        <div class="kpi__note">跨婴幼儿 ±4.6%</div>
+                    </div>
+                    <div class="kpi" style="--accent: var(--teal)">
+                        <div class="kpi__value"><span data-count="91.8" data-decimals="1">91.8</span><small>%</small></div>
+                        <div class="kpi__label">事件级灵敏度</div>
+                        <div class="kpi__note">605 / 659 次事件</div>
+                    </div>
+                    <div class="kpi" style="--accent: var(--violet)">
+                        <div class="kpi__value"><span data-count="0.21" data-decimals="2">0.21</span><small>次/时</small></div>
+                        <div class="kpi__label">每小时虚警</div>
+                        <div class="kpi__note">预算 ≤ 0.25 次/时</div>
+                    </div>
+                    <div class="kpi" style="--accent: var(--amber)">
+                        <div class="kpi__value"><span data-count="87" data-decimals="0">87</span><small>s</small></div>
+                        <div class="kpi__label">提前量中位数</div>
+                        <div class="kpi__note">IQR 73–103 s</div>
+                    </div>
+                </div>
+
+                <div class="grid grid--2" style="margin-top: 22px">
+                    <div class="panel" data-reveal>
+                        <div class="panel__label">分类型表现</div>
+                        <ul class="spec-list" style="margin-top: 10px">
+                            <li><span class="k">排尿</span><span class="v"><b>93.6%</b> 预警灵敏度</span></li>
+                            <li><span class="k">排便</span><span class="v"><b>83.4%</b> 预警灵敏度（样本少，可个体化提升）</span></li>
+                            <li><span class="k">精确率</span><span class="v"><b>81.6%</b>，约五次提醒四次正确</span></li>
+                        </ul>
+                    </div>
+                    <div class="panel" data-reveal>
+                        <div class="panel__label">使用体验</div>
+                        <ul class="spec-list" style="margin-top: 10px">
+                            <li><span class="k">个体化</span><span class="v">免校准上线，个体化微调后 <b>94.7%</b></span></li>
+                            <li><span class="k">稳定性</span><span class="v">连续 24 小时压测零崩溃、内存平稳</span></li>
+                            <li><span class="k">续航</span><span class="v">电池供电连续运行 <b>2.5 小时以上</b></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="note">
+                    所有指标均来自婴幼儿独立五折验证，经多重比较校正后仍然显著（p&lt;0.05）。
+                    以上为实验室与自然情境试验数据，量产后将持续用真实用户数据迭代模型。
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= 07 信任｜安全 ================= -->
+        <section class="section" id="safety">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">07 · 信任｜安全</p>
+                    <h2>给宝宝用的东西：安全是底线，隐私是承诺</h2>
+                    <p class="sec-sub">
+                        无创、无辐射、低亮、本地处理——这些不是加分项，而是能不能给宝宝用的前提。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="grid grid--3">
+                    <article class="card" style="--accent: var(--cyan)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">01</span>
+                            <h3 class="card__title">无创无辐射</h3>
+                        </div>
+                        <p class="card__text">柔性电极只做体表电信号采集，不使用任何辐射源；单次功耗毫瓦级。</p>
+                    </article>
+
+                    <article class="card" style="--accent: var(--teal)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">02</span>
+                            <h3 class="card__title">材质安全</h3>
+                        </div>
+                        <p class="card__text">外套为 A 类婴幼儿纺织品，可拆下水洗；电子层独立密封。</p>
+                    </article>
+
+                    <article class="card" style="--accent: var(--amber)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">03</span>
+                            <h3 class="card__title">低亮指示</h3>
+                        </div>
+                        <p class="card__text">3 颗 1.5 mm LED 与连接口位于 8 mm 右端侧面，正面无光；夜间只在预警时轻闪。</p>
+                    </article>
+
+                    <article class="card" style="--accent: var(--violet)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">04</span>
+                            <h3 class="card__title">数据本地化</h3>
+                        </div>
+                        <p class="card__text">原始信号在垫内处理，不上传云端；云端只接收脱敏统计。</p>
+                    </article>
+
+                    <article class="card" style="--accent: var(--pink)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">05</span>
+                            <h3 class="card__title">家长可控</h3>
+                        </div>
+                        <p class="card__text">可随时关闭提醒与灯光、删除数据；身份信息与数据分离存储。</p>
+                    </article>
+
+                    <article class="card card--accent" data-reveal>
+                        <p class="panel__label" style="margin-bottom: 10px">一句话</p>
+                        <p class="quote" style="font-size: 18px">
+                            孩子的数据，<br>只用来让下一次提醒更准。
+                        </p>
+                    </article>
+                </div>
+
+                <div class="panel" style="margin-top: 22px" data-reveal>
+                    <div class="panel__label">合规路径</div>
+                    <p class="card__text" style="margin-top: 12px">
+                        以“<span class="hl">非医疗健康电子产品</span>”先行上市，同步启动儿童健康类产品的注册检验与临床评价评估；
+                        公司已有医疗器械相关流程经验，注册路径可直接复用。
+                    </p>
+                    <p class="note">
+                        本产品定位为非医疗健康电子产品，不用于疾病的诊断、治疗或监护替代；异常情况请遵医嘱。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 08 商业｜模型 ================= -->
+        <section class="section" id="business">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">08 · 商业｜模型</p>
+                    <h2>四层收入：<span class="nowrap">硬件入口 +</span> <span class="nowrap">耗材复购 +</span> <span class="nowrap">订阅 +</span> <span class="nowrap">机构授权</span></h2>
+                    <p class="sec-sub">
+                        硬件是一次性入口，外套是“洗坏了就换”的自然复购，成长报告是家长愿意持续付费的内容，
+                        机构授权则带来批量交付与口碑扩散。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="grid grid--4">
+                    <article class="card" style="--accent: var(--cyan)" data-reveal>
+                        <h3 class="card__title">硬件套装</h3>
+                        <p class="card__text" style="margin-top: 8px">枕垫 + 2 只可换洗外套 + 充电座</p>
+                        <p class="mini__v" style="margin-top: 14px">999 <span style="font-size: 13px; color: var(--muted)">元</span></p>
+                        <p class="mini__k">建议零售价</p>
+                        <span class="chip chip--plain" style="margin-top: 12px">毛利 ~55%</span>
+                    </article>
+
+                    <article class="card" style="--accent: var(--teal)" data-reveal>
+                        <h3 class="card__title">耗材复购</h3>
+                        <p class="card__text" style="margin-top: 8px">外套可拆洗，建议 6 个月换新</p>
+                        <p class="mini__v" style="margin-top: 14px">129 <span style="font-size: 13px; color: var(--muted)">元/只</span></p>
+                        <p class="mini__k">年 2 只</p>
+                        <span class="chip chip--plain" style="margin-top: 12px">毛利 ~60%</span>
+                    </article>
+
+                    <article class="card" style="--accent: var(--violet)" data-reveal>
+                        <h3 class="card__title">App 订阅</h3>
+                        <p class="card__text" style="margin-top: 8px">成长报告、多孩档案、远程共享</p>
+                        <p class="mini__v" style="margin-top: 14px">29 <span style="font-size: 13px; color: var(--muted)">元/月</span></p>
+                        <p class="mini__k">199 元 / 年</p>
+                        <span class="chip chip--plain" style="margin-top: 12px">毛利 ~85%</span>
+                    </article>
+
+                    <article class="card" style="--accent: var(--pink)" data-reveal>
+                        <h3 class="card__title">机构授权</h3>
+                        <p class="card__text" style="margin-top: 8px">托育机构按班级 / 床位年费</p>
+                        <p class="mini__v" style="margin-top: 14px">1.2 <span style="font-size: 13px; color: var(--muted)">万元/年起</span></p>
+                        <p class="mini__k">机构端年费</p>
+                        <span class="chip chip--plain" style="margin-top: 12px">毛利 ~80%</span>
+                    </article>
+                </div>
+
+                <div class="grid grid--2" style="margin-top: 22px">
+                    <div class="panel" data-reveal>
+                        <div class="panel__label">单用户经济模型（首年，示例）</div>
+                        <div class="table-wrap" style="margin-top: 12px">
+                            <div class="table-scroll">
+                                <table style="min-width: 0">
+                                    <thead><tr><th scope="col">项目</th><th scope="col">金额</th></tr></thead>
+                                    <tbody>
+                                        <tr><td>硬件收入</td><td>999 元</td></tr>
+                                        <tr><td>耗材（年 2 只外套）</td><td>258 元</td></tr>
+                                        <tr><td>订阅（12 个月）</td><td>199 元</td></tr>
+                                        <tr><td><strong>首年 LTV</strong></td><td><strong style="color: var(--cyan)">约 1,456 元</strong></td></tr>
+                                        <tr><td>获客成本 CAC（目标）</td><td>≤ 450 元</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel" data-reveal>
+                        <div class="panel__label">为什么可持续</div>
+                        <ul class="ticks" style="margin-top: 12px">
+                            <li>枕垫是耐用品，外套是“洗坏了就换”的自然复购，符合母婴品类的高频真实需求。</li>
+                            <li>订阅把一次性交易变成长期关系：成长报告是家长愿意持续付费的内容。</li>
+                            <li>机构授权带来批量交付与口碑扩散，摊薄整体获客成本。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div style="margin-top: 38px" data-reveal>
+                    <h3 style="font-size: clamp(20px, 2.2vw, 26px)">三阶段推广：先做透场景，再复制区域，最后上规模</h3>
+                    <div class="roadmap" style="margin-top: 18px">
+                        <article class="phase" style="--accent: var(--cyan)">
+                            <div class="phase__h">
+                                <span class="phase__p">P1 · 场景验证</span>
+                                <span class="phase__t">0–12 月</span>
+                            </div>
+                            <h3>做透 3 个场景</h3>
+                            <ul>
+                                <li>3 家托育机构 + 500 户家庭内测</li>
+                                <li>转化率目标 8%，NPS ≥ 50</li>
+                                <li>打磨佩戴与提醒体验</li>
+                            </ul>
+                        </article>
+
+                        <article class="phase" style="--accent: var(--teal)">
+                            <div class="phase__h">
+                                <span class="phase__p">P2 · 区域复制</span>
+                                <span class="phase__t">12–24 月</span>
+                            </div>
+                            <h3>复制到长三角</h3>
+                            <ul>
+                                <li>长三角 300 家机构 + 电商旗舰</li>
+                                <li>月销 5,000 套，复购率 ≥ 60%</li>
+                                <li>建立区域服务与培训体系</li>
+                            </ul>
+                        </article>
+
+                        <article class="phase" style="--accent: var(--violet)">
+                            <div class="phase__h">
+                                <span class="phase__p">P3 · 规模扩张</span>
+                                <span class="phase__t">24–36 月</span>
+                            </div>
+                            <h3>走向全国与海外</h3>
+                            <ul>
+                                <li>全国渠道代理 + 母婴连锁</li>
+                                <li>SKU 扩展：便携版 / 机构版</li>
+                                <li>启动东南亚试点</li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="chips" style="margin-top: 18px">
+                        <span class="chip chip--plain">母婴连锁</span>
+                        <span class="chip chip--plain">电商旗舰店</span>
+                        <span class="chip chip--plain">托育机构 / 月子中心</span>
+                        <span class="chip chip--plain">儿保门诊合作</span>
+                        <span class="chip chip--plain">社区体验点</span>
+                        <span class="chip chip--plain">KOC 内容营销</span>
+                    </div>
+
+                    <p class="card__text" style="margin-top: 16px">
+                        <span class="hl">推广打法：</span>机构做“信任背书”（托育机构、儿保医生示范），家庭做“内容种草”（真实使用日记、睡眠改善对比），
+                        电商做“承接转化”（旗舰店 + 直播间）；三端同价，避免渠道冲突。
+                    </p>
+                </div>
+
+                <div class="grid grid--2" style="margin-top: 38px">
+                    <div class="panel" data-reveal>
+                        <div class="panel__label">成本结构（单台，估算）</div>
+                        <div class="stack" role="img" aria-label="成本结构：柔性电极阵列 32%，主控与传感 26%，结构与面料 18%，电池与充电 12%，包装与物流 12%">
+                            <span style="--c: var(--cyan); flex: 32">32%</span>
+                            <span style="--c: var(--teal); flex: 26">26%</span>
+                            <span style="--c: var(--violet); flex: 18">18%</span>
+                            <span style="--c: var(--amber); flex: 12">12%</span>
+                            <span style="--c: var(--pink); flex: 12">12%</span>
+                        </div>
+                        <div class="legend">
+                            <span><i style="--c: var(--cyan)"></i>柔性电极阵列</span>
+                            <span><i style="--c: var(--teal)"></i>主控与传感</span>
+                            <span><i style="--c: var(--violet)"></i>结构与面料</span>
+                            <span><i style="--c: var(--amber)"></i>电池与充电</span>
+                            <span><i style="--c: var(--pink)"></i>包装与物流</span>
+                        </div>
+                    </div>
+
+                    <div class="panel" data-reveal>
+                        <div class="panel__label">产品化时间表</div>
+                        <div class="grid grid--3" style="margin-top: 12px">
+                            <div class="mini" style="--accent: var(--cyan)">
+                                <div class="mini__v">3 <span style="font-size: 12px">个月</span></div>
+                                <div class="mini__k">打样与可靠性测试</div>
+                            </div>
+                            <div class="mini" style="--accent: var(--teal)">
+                                <div class="mini__v">6 <span style="font-size: 12px">个月</span></div>
+                                <div class="mini__k">小批量量产</div>
+                            </div>
+                            <div class="mini" style="--accent: var(--violet)">
+                                <div class="mini__v">9 <span style="font-size: 12px">个月</span></div>
+                                <div class="mini__k">首批 1 万台交付</div>
+                            </div>
+                        </div>
+                        <p class="card__text" style="margin-top: 16px; font-size: 13px">
+                            核心算法与结构已完成验证；母公司已有智能康养设备的量产体系与质量流程，
+                            头垫类产品可直接复用产线、供应商与质量流程。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="panel" style="margin-top: 22px" data-reveal>
+                    <div class="panel__label">12 个月里程碑</div>
+                    <div class="timeline">
+                        <div class="tl-item">
+                            <div class="tl-dot" aria-hidden="true"></div>
+                            <p class="tl-m">M1</p>
+                            <p>枕垫打样与可靠性测试完成</p>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-dot" aria-hidden="true"></div>
+                            <p class="tl-m">M2</p>
+                            <p>3 家托育机构 + 500 户内测</p>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-dot" aria-hidden="true"></div>
+                            <p class="tl-m">M3</p>
+                            <p>首批 1 万台量产交付</p>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-dot" aria-hidden="true"></div>
+                            <p class="tl-m">M4</p>
+                            <p>注册检验与临床评价启动</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="note">
+                    定价为市场测试建议值，正式定价将基于 500 户内测的价格敏感度测试调整；毛利为估算值。
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= 09 政策｜价值 ================= -->
+        <section class="section" id="policy">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">09 · 政策｜价值</p>
+                    <h2>国家政策同向：生育支持、普惠托育与“人工智能+”</h2>
+                    <p class="sec-sub">
+                        生育支持带来“愿生”，普惠托育带来“敢托”，AI + 民生带来“能用技术解决”——
+                        产品所在的方向，正好是政策与需求同频的位置。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="grid grid--2">
+                    <article class="card" style="--accent: var(--cyan)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">01</span>
+                            <h3 class="card__title">生育支持</h3>
+                        </div>
+                        <p class="card__text">
+                            《关于优化生育政策促进人口长期均衡发展的决定》明确三孩政策与配套支持措施；
+                            国家育儿补贴制度落地，家庭育儿支出获得直接支持。
+                        </p>
+                    </article>
+
+                    <article class="card" style="--accent: var(--teal)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">02</span>
+                            <h3 class="card__title">普惠托育</h3>
+                        </div>
+                        <p class="card__text">
+                            国务院推动普惠托育服务专项行动，托育机构数量与备案率持续提升，
+                            机构端对“标准化护理工具”的需求快速上升。
+                        </p>
+                    </article>
+
+                    <article class="card" style="--accent: var(--violet)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">03</span>
+                            <h3 class="card__title">人工智能 +</h3>
+                        </div>
+                        <p class="card__text">
+                            2025 年 8 月国务院《关于深入实施“人工智能+”行动的意见》部署“人工智能 + 民生福祉”，
+                            鼓励 AI 在育儿、养老等场景落地。
+                        </p>
+                    </article>
+
+                    <article class="card" style="--accent: var(--amber)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">04</span>
+                            <h3 class="card__title">儿童健康</h3>
+                        </div>
+                        <p class="card__text">
+                            《“健康中国 2030”规划纲要》《健康儿童行动提升计划》把儿童早期发展与常见病预防作为重点任务。
+                        </p>
+                    </article>
+                </div>
+
+                <div style="margin-top: 38px" data-reveal>
+                    <h3 style="font-size: clamp(20px, 2.2vw, 26px)">政府扶持可叠加：资质、资金、场景与产学研</h3>
+                    <div class="grid grid--4" style="margin-top: 18px">
+                        <article class="card card--flat" style="--accent: var(--cyan)">
+                            <h3 class="card__title">资质类</h3>
+                            <ul class="ticks">
+                                <li>高新技术企业（企业所得税 15%）</li>
+                                <li>科技型 / 创新型中小企业认定</li>
+                            </ul>
+                        </article>
+                        <article class="card card--flat" style="--accent: var(--teal)">
+                            <h3 class="card__title">资金类</h3>
+                            <ul class="ticks">
+                                <li>研发费用加计扣除（100%）</li>
+                                <li>地方产业基金、技改与首台套补贴</li>
+                            </ul>
+                        </article>
+                        <article class="card card--flat" style="--accent: var(--violet)">
+                            <h3 class="card__title">场景类</h3>
+                            <ul class="ticks">
+                                <li>普惠托育示范点、妇幼保健机构试点</li>
+                                <li>政府采购与“创新产品目录”推荐</li>
+                            </ul>
+                        </article>
+                        <article class="card card--flat" style="--accent: var(--amber)">
+                            <h3 class="card__title">产学研</h3>
+                            <ul class="ticks">
+                                <li>国家超算（济南）中心算力合作</li>
+                                <li>安徽理工大学、科大讯飞技术交流合作</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <p class="card__text" style="margin-top: 14px">
+                        云峰智能已具备科技中小企业资质，并已与安徽理工大学、国家超算（济南）中心、科大讯飞签署长期合作协议——
+                        可复用这些资质与合作通道申报项目与补贴。
+                    </p>
+                </div>
+
+                <div style="margin-top: 38px" data-reveal>
+                    <h3 style="font-size: clamp(20px, 2.2vw, 26px)">让照护更从容：一个产品，四重社会价值</h3>
+                    <div class="grid grid--4" style="margin-top: 18px">
+                        <article class="card" style="--accent: var(--cyan)">
+                            <h3 class="card__title">减少皮肤问题</h3>
+                            <p class="card__text" style="margin-top: 8px">及时更换显著降低尿液与皮肤接触时间，减少尿布皮炎与红臀发生率。</p>
+                        </article>
+                        <article class="card" style="--accent: var(--teal)">
+                            <h3 class="card__title">改善全家睡眠</h3>
+                            <p class="card__text" style="margin-top: 8px">减少夜间反复检查与更换，家长与宝宝的睡眠连续性都能提升。</p>
+                        </article>
+                        <article class="card" style="--accent: var(--violet)">
+                            <h3 class="card__title">提升托育质量</h3>
+                            <p class="card__text" style="margin-top: 8px">把“凭经验照护”变成“按数据照护”，机构可标准化排班与交接。</p>
+                        </article>
+                        <article class="card" style="--accent: var(--amber)">
+                            <h3 class="card__title">支持生育友好</h3>
+                            <p class="card__text" style="margin-top: 8px">降低育儿焦虑与照护成本，是“生育支持政策”落到家庭的一个具体抓手。</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="band" data-reveal>
+                    <span class="band__k">WHY</span>
+                    <p>
+                        我们不是在做一件“更聪明的尿裤”，而是在把“照顾宝宝”从被动响应变成可计划的看护——
+                        <strong>这既是家庭愿意付费的价值，也是政策愿意支持的方向。</strong>
+                    </p>
+                </div>
+
+                <p class="note">
+                    注：政策表述以公开发布文件为准，具体条款与补贴标准请以最新官方口径核对。
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= 10 公司｜实力 ================= -->
+        <section class="section" id="company">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">10 · 公司｜实力</p>
+                    <h2>为什么是我们：<span class="nowrap">已验证的产业化能力</span></h2>
+                    <p class="sec-sub">
+                        母公司蔼床产品已开始批量交付；算法、硬件、供应链与质量流程都经过量产级验证，
+                        可直接复用到枕垫产品线。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="grid grid--4">
+                    <article class="card card--flat" style="--accent: var(--cyan)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">01</span>
+                            <h3 class="card__title">数据资产</h3>
+                        </div>
+                        <p class="card__text">200G 成年人排便意图试验真人数据集，同路径迁移试验代价大幅降低。</p>
+                    </article>
+                    <article class="card card--flat" style="--accent: var(--teal)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">02</span>
+                            <h3 class="card__title">算法能力</h3>
+                        </div>
+                        <p class="card__text">事件级灵敏度 91.8%；个体化微调可到 94.7%，形成“越用越懂你家宝宝”的体验。</p>
+                    </article>
+                    <article class="card card--flat" style="--accent: var(--violet)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">03</span>
+                            <h3 class="card__title">供应链与量产</h3>
+                        </div>
+                        <p class="card__text">母公司已具备智能康养设备量产体系，枕垫类产品可直接复用产线、供应商与质量流程。</p>
+                    </article>
+                    <article class="card card--flat" style="--accent: var(--amber)" data-reveal>
+                        <div class="card__head">
+                            <span class="card__icon" aria-hidden="true">04</span>
+                            <h3 class="card__title">品牌与知识产权</h3>
+                        </div>
+                        <p class="card__text">母公司拥有 7 项专利 + 1 项软著，核心发明专利已通过初审；可参与行业标准与白皮书编制。</p>
+                    </article>
+                </div>
+
+                <div class="panel" style="margin-top: 22px" data-reveal>
+                    <div class="panel__label">安徽云峰智能装备有限公司</div>
+                    <p class="card__text" style="margin-top: 12px">
+                        淮南市科技中小企业，专注智能康养设备的研发与生产。已推出 <span class="hl">蔼床® 护理用床形机器人</span>；
+                        AI 算法底座已在护理机器人上完成量产级验证。
+                    </p>
+                    <div class="chips" style="margin-top: 18px">
+                        <span class="chip" style="--accent: var(--cyan)">高新技术企业</span>
+                        <span class="chip" style="--accent: var(--teal)">7 项专利 + 1 项软著</span>
+                        <span class="chip chip--plain">国家超算（济南）中心</span>
+                        <span class="chip chip--plain">科大讯飞</span>
+                        <span class="chip chip--plain">安徽理工大学</span>
+                        <span class="chip chip--plain">旧金山 Thinking Machine Lab 验证参与方</span>
+                    </div>
+                    <div class="grid grid--2" style="margin-top: 20px">
+                        <div>
+                            <h4 style="font-size: 13px; color: var(--cyan); font-family: var(--mono); letter-spacing: .08em">为什么云峰能做这件事</h4>
+                            <ul class="ticks">
+                                <li>算法：AI 神经解码算法已在护理机器人上完成量产级验证</li>
+                                <li>硬件：干电极、柔性电路、精密封装与量产体系现成</li>
+                                <li>渠道：康养与托育机构客户资源可直接复用</li>
+                                <li>合规：已有医疗器械相关流程经验，可复用做注册路径评估</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 13px; color: var(--teal); font-family: var(--mono); letter-spacing: .08em">壁垒的本质</h4>
+                            <p class="card__text" style="margin-top: 12px">
+                                不是某一项技术，而是“真实事件数据 + 可量产结构 + 家庭场景渠道”的叠加。
+                            </p>
+                            <p class="card__text">
+                                下一步加固：申请枕垫结构与贴合方式专利；与托育机构共建婴幼儿护理数据联盟；
+                                把“事件级灵敏度 / 虚警率”写入行业标准建议稿，抢占定义权。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 11 常见问题 ================= -->
+        <section class="section" id="faq">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">11 · 常见问题</p>
+                    <h2>关于便前宝，你可能想知道</h2>
+                    <p class="sec-sub">以下回答整理自产品说明与试验记录，具体体验以实际产品为准。</p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="acc" data-reveal>
+                    <details>
+                        <summary>便前宝是什么？和普通的尿湿报警器有什么不同？</summary>
+                        <div class="acc-body">
+                            <p>便前宝是一张 8 mm 厚的智能枕垫：宝宝躺下后，它同时读取脑电、压力与温湿度，由端侧 AI 判断“是否即将排便 / 排尿”，并在事件发生前 60–120 秒提醒看护者。</p>
+                            <p>普通尿湿报警器是在“已经尿了”之后才响；便前宝回答的是“什么时候要拉”，把事后补救变成事前准备。</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>宝宝需要戴东西吗？会不会影响睡眠？</summary>
+                        <div class="acc-body">
+                            <p>不需要。零穿戴、无贴片、无需导电膏，也不改变宝宝的睡眠姿势。后枕与颈侧在躺卧时自然贴合中部电极阵列，压力层则覆盖整张垫子。</p>
+                            <p>厚度 8 mm、重量 320 g，手感和厚度接近普通婴儿枕，替换现有枕头即可使用。</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>需要联网吗？数据会不会上传？</summary>
+                        <div class="acc-body">
+                            <p>不需要联网。采集、处理、推理都在随附的 SOM 模组内完成，断网仍可预警。</p>
+                            <p>原始信号不上传云端，云端只接收脱敏统计；身份信息与数据分离存储，家长可随时关闭提醒、删除数据。</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>91.8% 的灵敏度是怎么测出来的？</summary>
+                        <div class="acc-body">
+                            <p>来自 60 名 6–24 月龄婴幼儿、648.7 小时自然情境记录与 659 次事件真值；采用婴幼儿独立五折交叉验证（每折 12 名），测试集 1:1:1 均衡。</p>
+                            <p>事件真值用尿裤传感贴片 + 视频 + 日志三路对照，三路信号同一时钟打时间戳，偏差小于 1 ms。所有指标经多重比较校正后仍然显著（p&lt;0.05）。</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>夜里会不会很亮、很吵？</summary>
+                        <div class="acc-body">
+                            <p>不会。3 颗 1.5 mm LED 位于 8 mm 右端侧面，正面无光，夜间只在预警时轻闪；提醒可分级为提示音、轻震或床头灯颜色。</p>
+                            <p>系统只在“高置信 + 连续两窗”时提醒，并设 5 分钟不应期，非预测窗口保持安静。</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>这是医疗器械吗？能替代大人看护吗？</summary>
+                        <div class="acc-body">
+                            <p>不是。便前宝定位为非医疗健康电子产品，不用于疾病的诊断、治疗或监护替代，也不能替代成人看护。</p>
+                            <p>公司同步启动儿童健康类产品的注册检验与临床评价评估；如宝宝出现异常，请及时就医。</p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>适合多大的宝宝？电池能用多久？</summary>
+                        <div class="acc-body">
+                            <p>试验覆盖 6–24 月龄健康婴幼儿；产品按自然作息连续记录，不改变原有带娃习惯。</p>
+                            <p>电池供电可连续运行 2.5 小时以上，外接电源可长时使用；续航数据来自验证样机，量产版本将持续优化。</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 12 联系｜体验 ================= -->
+        <section class="section" id="contact">
+            <div class="wrap">
+                <div class="contact-grid">
+                    <div data-reveal>
+                        <p class="eyebrow">12 · 联系｜体验</p>
+                        <h2 style="margin-top: 14px; font-size: clamp(26px, 3.3vw, 38px); line-height: 1.32">
+                            把不确定的等待，<br>变成可计划的 60 秒
+                        </h2>
+                        <p class="sec-sub" style="max-width: 520px">
+                            产品打样、托育机构试点、渠道合作与投资洽谈，欢迎直接联系。
+                            我们尤其希望听到真实家庭的使用反馈——那会决定下一个版本长什么样。
+                        </p>
+
+                        <ul class="contact-list">
+                            <li><span class="k">公司</span><span class="v">安徽云峰智能装备有限公司</span></li>
+                            <li><span class="k">地址</span><span class="v">安徽省淮南市</span></li>
+                            <li><span class="k">联系人</span><span class="v">黄海洋</span></li>
+                            <li><span class="k">邮箱</span><span class="v"><a href="mailto:69147957@qq.com">69147957@qq.com</a></span></li>
+                            <li><span class="k">合作</span><span class="v">托育机构试点 · 母婴渠道 · 区域代理 · 投资</span></li>
+                        </ul>
+                    </div>
+
+                    <form class="form" id="contactForm" data-reveal action="mailto:69147957@qq.com" method="post" enctype="text/plain">
+                        <h3 class="form__title">预约产品体验</h3>
+                        <p class="form__sub">填写后点击发送，将调用本机邮件客户端把信息发给我们。</p>
+
+                        <div class="field">
+                            <label for="fName">称呼</label>
+                            <input id="fName" name="name" type="text" placeholder="例如：王女士" autocomplete="name" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="fPhone">联系方式</label>
+                            <input id="fPhone" name="phone" type="text" placeholder="手机号或邮箱" autocomplete="tel" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="fType">合作类型</label>
+                            <select id="fType" name="type">
+                                <option>家庭体验 / 预约购买</option>
+                                <option>托育机构试点</option>
+                                <option>母婴渠道 / 区域代理</option>
+                                <option>投资与合作洽谈</option>
+                                <option>媒体与其他</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="fMsg">留言</label>
+                            <textarea id="fMsg" name="message" placeholder="宝宝月龄、所在城市，或你想了解的问题……"></textarea>
+                        </div>
+
+                        <button class="btn btn--primary" type="submit">
+                            发送邮件咨询
+                            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 4.5 8 8.5l6-4M2 4.5h12v7H2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                        </button>
+                        <p class="form__note">
+                            本页为静态演示页，不收集、不上传任何表单数据；点击发送只会打开你的邮件客户端。
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap">
+            <div class="footer__top">
+                <div>
+                    <a class="brand" href="index.html">
+                        <span class="brand__mark" aria-hidden="true">峰</span>
+                        <span class="brand__text">
+                            <span class="brand__name">云峰智能 · 便前宝</span>
+                            <span class="brand__sub">Anhui Yunfeng Intelligent Equipment</span>
+                        </span>
+                    </a>
+                    <p class="footer__desc">
+                        用人机接口与端侧 AI，把照护从“被动响应”变成“可计划的看护”。
+                        脑机接口 · 智能育儿产品线。
+                    </p>
+                </div>
+
+                <div>
+                    <h4>产品</h4>
+                    <ul>
+                        <li><a href="#design">形态与规格</a></li>
+                        <li><a href="#structure">五层结构</a></li>
+                        <li><a href="#workflow">使用流程</a></li>
+                        <li><a href="#tech">技术链路</a></li>
+                        <li><a href="#data">实测数据</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>公司</h4>
+                    <ul>
+                        <li><a href="#safety">安全与隐私</a></li>
+                        <li><a href="#business">商业与合作</a></li>
+                        <li><a href="#company">公司资质</a></li>
+                        <li><a href="#faq">常见问题</a></li>
+                        <li><a href="index.html">返回首页</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <span>版权所有 © <span id="year">2026</span> 安徽云峰智能装备有限公司</span>
+                <span>PAD 01 · V1.0 · 产品介绍</span>
+                <span>数据与界面为示意，最终以量产版本为准</span>
+            </div>
+        </div>
+    </footer>
+
+    <button class="to-top" id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+    <script src="about.js"></script>
 </body>
 </html>

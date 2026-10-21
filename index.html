@@ -3,35 +3,570 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>产品链接 -  详细介绍</title>
-    <link rel="stylesheet" href="style.css">
+    <title>安徽云峰智能装备有限公司｜智能康养 · 智能育儿 · 无人系统</title>
+    <meta name="description" content="安徽云峰智能装备有限公司：蔼床® 护理用床形机器人、便前宝智能枕垫、无人艇母港总后台控制技术。以智能装备接管护理与作业中最脏、最累、最需要耐心的环节。">
+    <meta name="theme-color" content="#050B1A">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B1A2E'/%3E%3Cpath d='M20 44V20h7l10 14V20h7v24h-7L27 30v14z' fill='%2322D3EE'/%3E%3C/svg%3E">
+    <script>
+        document.documentElement.classList.add("js");
+        window.__siteReady = false;
+        window.setTimeout(function () {
+            if (!window.__siteReady) document.documentElement.classList.remove("js");
+        }, 2500);
+    </script>
 </head>
 <body>
-    <h1>欢迎来到安徽云峰智能装备有限公司网站</h1>
-<nav>
-    <a href="index.html">首页</a> |
-    <a href="about.html">产品介绍</a>
-</nav>
-    <p>这是一个正在建设中的人工智能装备展示页面</p>
-    <h2>产品链接</h2>
-    <p>我们提供高质量的智能装备解决方案。</p>
-    <p>这里将展示我们的产品和技能：</p>
-    <p>人工智能护理床——蔼床；</p>
-    <p>人工智能育儿产品——宝宝便前宝；</p>
-    <p>长航程无人艇总后台控制技术。</p>
-    <section id="projects">
-<h3>我的项目</h3>
-<div class="project-card">
-    <h4>个人博客网站</h4>
-    <p>使用 HTML 和 CSS 构建的响应式博客。</p>
-    <a href="https://blog.csdn.net/">查看详情</a>
-</div>
-<div class="project-card">
-    <h5>天气预报应用</h5>
-    <p>使用 JavaScript 调用天气 API 的交互式应用。</p>
-    <a href="https://www.weather.com.cn/weather/101120101.shtml">查看详情</a>
-</div>
-</section>
-<p style="text-align: center;">版权所有© 2026 云峰智能装备有限公司</p >
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+    <header class="nav" id="siteNav">
+        <div class="wrap nav__inner">
+            <a class="brand" href="index.html" aria-label="安徽云峰智能装备有限公司 · 首页">
+                <span class="brand__mark" aria-hidden="true">峰</span>
+                <span class="brand__text">
+                    <span class="brand__name">云峰智能</span>
+                    <span class="brand__sub">Anhui Yunfeng Intelligent Equipment</span>
+                </span>
+            </a>
+
+            <button class="nav__toggle" id="navToggle" aria-label="展开导航菜单" aria-expanded="false" aria-controls="navLinks">
+                <span aria-hidden="true"></span>
+            </button>
+
+            <ul class="nav__links" id="navLinks">
+                <li><a href="#products">产品矩阵</a></li>
+                <li><a href="#bed">蔼床</a></li>
+                <li><a href="#usv">无人艇</a></li>
+                <li><a href="#baby">便前宝</a></li>
+                <li><a href="#company">公司</a></li>
+            </ul>
+
+            <a class="nav__cta" href="#contact">预约合作</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- ================= 首屏 ================= -->
+        <section class="home-hero" id="top">
+            <div class="wrap home-hero__grid">
+                <div class="home-hero__copy">
+                    <p class="hero__meta home-meta">
+                        <span class="dot" aria-hidden="true"></span>
+                        安徽云峰智能装备有限公司
+                        <span class="sep" aria-hidden="true">｜</span>
+                        智能装备
+                    </p>
+
+                    <h1>把复杂交给机器<br><span>把从容留给人</span></h1>
+
+                    <p class="hero__lead">
+                        从失能护理到婴幼儿照护，再到无人艇编队控制——
+                        云峰智能用可落地的智能装备与后台技术，接管最脏、最累、最需要耐心的环节。
+                    </p>
+
+                    <div class="chips hero__chips">
+                        <span class="chip" style="--accent: var(--cyan)">智能康养</span>
+                        <span class="chip" style="--accent: var(--teal)">智能育儿</span>
+                        <span class="chip" style="--accent: var(--violet)">无人系统</span>
+                    </div>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#products">
+                            查看产品矩阵
+                            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                        <a class="btn btn--ghost" href="#contact">预约合作</a>
+                    </div>
+
+                    <p class="hero-note">高新技术企业 · 7 项专利 + 1 项软著 · 首批产品已交付</p>
+                </div>
+
+                <div class="hero-mosaic" aria-label="三条产品线">
+                    <a class="hm hm--main" href="#bed">
+                        <img src="assets/bed-expo.jpg" width="1800" height="833"
+                             alt="蔼床护理用床形机器人在科技成果转化交易会现场展示">
+                        <span><em>01 · 智能康养</em>蔼床® 护理用床形机器人</span>
+                    </a>
+                    <a class="hm" href="#usv">
+                        <img src="assets/usv-console.jpg" width="1800" height="1030"
+                             alt="母港总后台控制台：水域态势地图、视频监控与遥控面板">
+                        <span><em>02 · 无人系统</em>无人艇母港总后台</span>
+                    </a>
+                    <a class="hm" href="#baby">
+                        <img src="assets/pad-top.jpg" width="1350" height="690"
+                             alt="便前宝 8 mm 智能枕垫俯视示意">
+                        <span><em>03 · 智能育儿</em>便前宝智能枕垫</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="wrap">
+                <div class="ribbon" data-reveal>
+                    <div class="ribbon__item" style="--accent: var(--cyan)">
+                        <span class="ribbon__v">03</span>
+                        <span class="ribbon__k">条产品线</span>
+                    </div>
+                    <div class="ribbon__item" style="--accent: var(--teal)">
+                        <span class="ribbon__v">7 + 1</span>
+                        <span class="ribbon__k">项专利与软件著作权</span>
+                    </div>
+                    <div class="ribbon__item" style="--accent: var(--violet)">
+                        <span class="ribbon__v">全球首款</span>
+                        <span class="ribbon__k">护理用床形机器人</span>
+                    </div>
+                    <div class="ribbon__item" style="--accent: var(--amber)">
+                        <span class="ribbon__v">首批已交付</span>
+                        <span class="ribbon__k">头部康养机构</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 01 产品矩阵 ================= -->
+        <section class="section" id="products">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">01 · 产品矩阵</p>
+                    <h2>从一张床、一张枕垫，到一支艇队</h2>
+                    <p class="sec-sub">
+                        三条产品线，共用同一套方法论：真实场景、端侧智能、可量产结构。
+                        它们分别面向失能护理、婴幼儿照护与水域无人作业。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="product-cards">
+                    <article class="p-card" style="--accent: var(--cyan)" data-reveal>
+                        <a class="p-card__media" href="#bed" aria-label="查看蔼床介绍">
+                            <img src="assets/bed-mall-card.jpg" width="1034" height="646" loading="lazy"
+                                 alt="蔼床护理用床形机器人在商场公共空间展示，床体与白色操作面板清晰可见">
+                            <span class="p-card__badge">01 · 智能康养</span>
+                        </a>
+                        <div class="p-card__body">
+                            <h3>蔼床® 护理用床形机器人</h3>
+                            <p>AI 护理床：自动如厕、闭式排污、主动防褥疮与智慧体态，让失能者保有尊严，让照护者从重复劳动中解放。</p>
+                            <div class="chips">
+                                <span class="chip" style="--accent: var(--cyan)">自动如厕</span>
+                                <span class="chip" style="--accent: var(--teal)">防褥疮</span>
+                                <span class="chip" style="--accent: var(--amber)">楼宇直排</span>
+                            </div>
+                            <a class="p-card__link" href="#bed">了解蔼床 <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="p-card" style="--accent: var(--violet)" data-reveal>
+                        <a class="p-card__media" href="#usv" aria-label="查看无人艇总后台介绍">
+                            <img src="assets/usv-console.jpg" width="1800" height="1030" loading="lazy"
+                                 alt="母港总后台控制台界面">
+                            <span class="p-card__badge">02 · 无人系统</span>
+                        </a>
+                        <div class="p-card__body">
+                            <h3>无人艇母港总后台</h3>
+                            <p>长航程无人艇母港总后台：5G / 天通双链路，单屏完成多艇态势、遥控、航线、目标与权限管理，把一支艇队装进一个 WebUI。</p>
+                            <div class="chips">
+                                <span class="chip" style="--accent: var(--violet)">多艇协同</span>
+                                <span class="chip" style="--accent: var(--cyan)">双链路</span>
+                                <span class="chip" style="--accent: var(--teal)">键盘操控</span>
+                            </div>
+                            <a class="p-card__link" href="#usv">了解无人艇 <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="p-card" style="--accent: var(--pink)" data-reveal>
+                        <a class="p-card__media" href="about.html" aria-label="查看便前宝完整介绍">
+                            <img src="assets/pad-top.jpg" width="1350" height="690" loading="lazy"
+                                 alt="便前宝智能枕垫俯视示意">
+                            <span class="p-card__badge">03 · 智能育儿</span>
+                        </a>
+                        <div class="p-card__body">
+                            <h3>便前宝智能枕垫</h3>
+                            <p>8 mm 零穿戴枕垫，端侧 AI 在排便或排尿前 60–120 秒提醒，把不确定的等待变成可计划的 60 秒。</p>
+                            <div class="chips">
+                                <span class="chip" style="--accent: var(--pink)">零穿戴</span>
+                                <span class="chip" style="--accent: var(--teal)">提前 60–120 s</span>
+                                <span class="chip" style="--accent: var(--violet)">91.8%</span>
+                            </div>
+                            <a class="p-card__link" href="about.html">查看便前宝完整介绍 <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 02 智能康养｜蔼床 ================= -->
+        <section class="section" id="bed">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">02 · 智能康养｜蔼床</p>
+                    <h2><span class="nowrap">接管最脏、</span>&#8203;<span class="nowrap">最累、</span>&#8203;<span class="nowrap">最尴尬的护理</span></h2>
+                    <p class="sec-sub">
+                        蔼床® 是一款 AI 护理床，也是全球首款护理用床形机器人。从自动如厕、闭式排污到主动防褥疮与智慧体态，
+                        让失能者保有尊严，让家属与护工从重复劳动中解放。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="pillars">
+                    <article class="pillar" style="--accent: var(--cyan)" data-reveal>
+                        <p class="pillar__i">01 / CLEAN LOOP</p>
+                        <h3>洁净闭环</h3>
+                        <p>
+                            自动起坐、打开便盆、冲洗与暖风烘干一次完成；标准接口直连楼宇排水，不搬运粪便；
+                            便时排风，污浊即时排出，避免二次污染。
+                        </p>
+                        <div class="pillar__tags">
+                            <span>全自动如厕</span><span>闭式排污</span><span>便时排风</span>
+                        </div>
+                    </article>
+
+                    <article class="pillar" style="--accent: var(--teal)" data-reveal>
+                        <p class="pillar__i">02 / SMART CORE</p>
+                        <h3>智能芯脑</h3>
+                        <p>
+                            多模态传感器融合与边缘计算，实时监测心率、呼吸与体动；
+                            主动健康预警与具身智能驱动，让护理从“被动响应”转向“主动关怀”。
+                        </p>
+                        <div class="pillar__tags">
+                            <span>多模态感知</span><span>健康预警</span><span>主动关怀</span>
+                        </div>
+                    </article>
+
+                    <article class="pillar" style="--accent: var(--violet)" data-reveal>
+                        <p class="pillar__i">03 / SOFT CARE</p>
+                        <h3>柔护系统</h3>
+                        <p>
+                            多点压力传感矩阵、智慧分区气垫、分时送风与航天级抗菌面料协同，
+                            主动预防褥疮，全面提升卧床舒适度。
+                        </p>
+                        <div class="pillar__tags">
+                            <span>压力矩阵</span><span>分区气垫</span><span>抗菌面料</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="features">
+                    <article class="feature" data-reveal>
+                        <h4>全自动如厕</h4>
+                        <p>起坐、开便盆、冲洗、暖风烘干，全流程自动完成。</p>
+                    </article>
+                    <article class="feature" data-reveal>
+                        <h4>闭式排污</h4>
+                        <p>标准排污接口连接楼宇排水，不搬运、不暴露、不二次污染。</p>
+                    </article>
+                    <article class="feature" data-reveal>
+                        <h4>便时排风</h4>
+                        <p>排便区立体负压排风，及时排出污浊空气，保护室内环境。</p>
+                    </article>
+                    <article class="feature" data-reveal>
+                        <h4>智慧体态</h4>
+                        <p>自动翻身、起身与餐桌位，减少人工搬抬与二次伤害。</p>
+                    </article>
+                    <article class="feature" data-reveal>
+                        <h4>主动防褥疮</h4>
+                        <p>压力矩阵 + 智慧分区气垫 + 分时送风，按体压动态调节。</p>
+                    </article>
+                    <article class="feature" data-reveal>
+                        <h4>多端互联</h4>
+                        <p>触屏终端、家属端 App、机构管理平台与 A2A 智能协同。</p>
+                    </article>
+                </div>
+
+                <div class="bed-gallery">
+                    <figure data-reveal>
+                        <img src="assets/bed-expo.jpg" width="1800" height="833" loading="lazy"
+                             alt="蔼床在中国（安徽）科技创新成果转化交易会现场展示">
+                        <figcaption>中国（安徽）科技创新成果转化交易会现场</figcaption>
+                    </figure>
+                    <figure data-reveal>
+                        <img src="assets/bed-mall.jpg" width="1500" height="946" loading="lazy"
+                             alt="蔼床护理用床形机器人在商场公共空间展示">
+                        <figcaption>商场公共空间中的产品展示</figcaption>
+                    </figure>
+                    <figure data-reveal>
+                        <img src="assets/bed-hall.jpg" width="1600" height="1101" loading="lazy"
+                             alt="蔼床护理用床形机器人产品展示现场">
+                        <figcaption>产品展示现场</figcaption>
+                    </figure>
+                </div>
+
+                <div class="uses">
+                    <article class="use" data-reveal>
+                        <span>机构养老</span>
+                        <h3>降本增效，护理可复制</h3>
+                        <p>把如厕、清洁、翻身等高频护理标准化，缓解护工短缺，让机构排班与交接有据可依。</p>
+                    </article>
+                    <article class="use" data-reveal>
+                        <span>居家照护</span>
+                        <h3>护理减负，远程安心</h3>
+                        <p>家属端随时查看状态与告警，把体力活交给设备，把时间留给陪伴。</p>
+                    </article>
+                    <article class="use" data-reveal>
+                        <span>康复医院</span>
+                        <h3>连续记录，辅助康复</h3>
+                        <p>上下肢健康辅助与多模式交互，护理数据连续记录，便于评估、交班与远程会诊。</p>
+                    </article>
+                </div>
+
+                <p class="note">
+                    产品图片为实拍；具体配置与功能以交付版本为准，本页仅介绍产品特点与用途。
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= 03 无人系统｜USV ================= -->
+        <section class="section" id="usv">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">03 · 无人系统｜USV</p>
+                    <h2>把一支无人艇队，装进一个 WebUI</h2>
+                    <p class="sec-sub">
+                        母港总后台控制台是长航程无人艇编队的岸基操控终端：通过 5G / 天通数据链，
+                        把“看得见（视频与态势）”“控得住（键盘连续操控）”“管得了（航线、载荷、目标、权限、升级）”集中在同一界面。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <figure class="usv-shot" data-reveal>
+                    <div class="usv-shot__bar" aria-hidden="true">
+                        <i></i><i></i><i></i>
+                        <span>母港总后台控制台 · v1.4.9</span>
+                    </div>
+                    <img src="assets/usv-console.jpg" width="1800" height="1030" loading="lazy"
+                         alt="母港总后台控制台界面：左侧水域态势地图与双母港表格，中部视频监控与载荷按键，右侧方向、速度与油量仪表">
+                    <figcaption>水域态势 / 视频监控 / 遥控面板 / 通信链路 / 艇端状态 / 目标列表</figcaption>
+                </figure>
+
+                <div class="hl-grid">
+                    <article class="hl" data-reveal>
+                        <p class="hl__i">01 / SITUATION</p>
+                        <h3>单屏全域态势</h3>
+                        <p>4:3 水域地图叠加电子围栏、巡逻航线、障碍物与双母港；非法目标、任务航点与追击连线一屏可读。</p>
+                    </article>
+                    <article class="hl" data-reveal>
+                        <p class="hl__i">02 / LINK</p>
+                        <h3>双链路通信</h3>
+                        <p>5G 正常 → 天通降级 → 离线三级切换；降级关闭可视操作，离线锁止全部远程操作。</p>
+                    </article>
+                    <article class="hl" data-reveal>
+                        <p class="hl__i">03 / CONTROL</p>
+                        <h3>键盘连续操控</h3>
+                        <p>↑↓ 油门 5% 步进、按住 5 秒线性加减速；←→ 舵角 ±70°；空格安全停机，任务与追击中键盘指令优先。</p>
+                    </article>
+                    <article class="hl" data-reveal>
+                        <p class="hl__i">04 / ROUTE</p>
+                        <h3>航线与追击</h3>
+                        <p>1–200 个航点；单航点任务在 2 海里范围自动环巡；30 米追击判定、5 米到达判定。</p>
+                    </article>
+                    <article class="hl" data-reveal>
+                        <p class="hl__i">05 / MOTHER PORT</p>
+                        <h3>双母港接力</h3>
+                        <p>母港 2 位置更新、让渡与回切；配合补给舰，把任务半径从 1200 海里继续向外延伸。</p>
+                    </article>
+                    <article class="hl" data-reveal>
+                        <p class="hl__i">06 / FLEET</p>
+                        <h3>多艇与权限</h3>
+                        <p>多艇管理、操作员分配、管理员 / 操作员 / 观察员三级权限；OTA 升级与全程操作日志。</p>
+                    </article>
+                </div>
+
+                <div class="caps" data-reveal>
+                    <span class="chip chip--plain">5 路视频源</span>
+                    <span class="chip chip--plain">载荷作业联动</span>
+                    <span class="chip chip--plain">水炮安全红线</span>
+                    <span class="chip chip--plain">三级告警</span>
+                    <span class="chip chip--plain">状态保留</span>
+                    <span class="chip chip--plain">操作日志</span>
+                </div>
+
+                <p class="note">
+                    技术要点摘自《母港总后台控制台 使用说明书 v1.4.9》；界面与功能以实际交付版本为准。
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= 04 智能育儿｜便前宝 ================= -->
+        <section class="section" id="baby">
+            <div class="wrap">
+                <div class="baby">
+                    <div class="baby__shot" data-reveal>
+                        <img src="assets/pad-top.jpg" width="1350" height="690" loading="lazy"
+                             alt="便前宝 8 mm 智能枕垫俯视示意：中央电极阵列与压力阵列，右端为 LED 与外置模组">
+                        <p>8 mm 超薄枕垫 · 樱花粉 · 外置电池 + SOM 模组经柔性连线接入右端侧面</p>
+                    </div>
+
+                    <div data-reveal>
+                        <p class="eyebrow">04 · 智能育儿｜便前宝</p>
+                        <h2>提前一分钟，读懂宝宝</h2>
+                        <p class="sec-sub">
+                            一张 8 mm 的智能枕垫，宝宝零穿戴。躺下即感知，端侧 AI 在排便或排尿前
+                            60–120 秒提醒看护者——把不确定的等待，变成可以计划的 60 秒。
+                        </p>
+
+                        <div class="baby-stats">
+                            <div class="baby-stat" style="--accent: var(--teal)">
+                                <b>91.8%</b><span>事件级灵敏度</span>
+                            </div>
+                            <div class="baby-stat" style="--accent: var(--violet)">
+                                <b>0.21</b><span>每小时虚警（次）</span>
+                            </div>
+                            <div class="baby-stat" style="--accent: var(--cyan)">
+                                <b>60–120 s</b><span>提前提醒区间</span>
+                            </div>
+                            <div class="baby-stat" style="--accent: var(--amber)">
+                                <b>8 mm</b><span>枕垫厚度</span>
+                            </div>
+                        </div>
+
+                        <div class="chips" style="margin-top: 18px">
+                            <span class="chip" style="--accent: var(--pink)">零穿戴</span>
+                            <span class="chip" style="--accent: var(--teal)">断网可预警</span>
+                            <span class="chip" style="--accent: var(--cyan)">数据本地处理</span>
+                        </div>
+
+                        <a class="btn btn--primary" href="about.html" style="margin-top: 24px">
+                            查看便前宝完整介绍
+                            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 05 关于云峰 ================= -->
+        <section class="section" id="company">
+            <div class="wrap">
+                <div class="sec-head" data-reveal>
+                    <p class="eyebrow">05 · 关于云峰</p>
+                    <h2>把 AI 装进装备，把装备放进真实场景</h2>
+                    <p class="sec-sub">
+                        安徽云峰智能装备有限公司专注智能康养设备的研发与生产，
+                        产品覆盖护理、育儿与无人系统控制。我们相信，技术的价值不在于炫技，
+                        而在于能不能替人承担那些重复、尴尬、消耗心力的工作。
+                    </p>
+                </div>
+                <div class="rule" aria-hidden="true"></div>
+
+                <div class="company-grid">
+                    <article class="company-card" style="--accent: var(--cyan)" data-reveal>
+                        <p class="company-card__i">01 / R&amp;D</p>
+                        <h3>研发</h3>
+                        <p>多模态传感、边缘计算、具身智能与后台控制技术，形成从端侧感知到云端管理的完整能力。</p>
+                    </article>
+                    <article class="company-card" style="--accent: var(--teal)" data-reveal>
+                        <p class="company-card__i">02 / MANUFACTURING</p>
+                        <h3>制造</h3>
+                        <p>自有智能康养设备量产体系与质量流程，核心产品已进入批量交付，可快速复用至新产品线。</p>
+                    </article>
+                    <article class="company-card" style="--accent: var(--violet)" data-reveal>
+                        <p class="company-card__i">03 / SCENARIO</p>
+                        <h3>场景</h3>
+                        <p>康养机构、家庭、托育机构与水域作业现场，真实场景驱动产品迭代，而不是实验室里的想象。</p>
+                    </article>
+                </div>
+
+                <div class="company-band" data-reveal>
+                    <p class="company-band__quote">
+                        我们不是在做一件“更聪明的设备”，而是在把照护从被动响应，变成主动关怀。
+                    </p>
+                    <div class="chips">
+                        <span class="chip" style="--accent: var(--cyan)">高新技术企业</span>
+                        <span class="chip" style="--accent: var(--teal)">7 项专利 + 1 项软著</span>
+                        <span class="chip chip--plain">国家超算（济南）中心</span>
+                        <span class="chip chip--plain">科大讯飞</span>
+                        <span class="chip chip--plain">安徽理工大学</span>
+                        <span class="chip chip--plain">首批产品已交付</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 06 合作｜联系 ================= -->
+        <section class="section" id="contact">
+            <div class="wrap">
+                <div class="contact-box" data-reveal>
+                    <div>
+                        <p class="eyebrow">06 · 合作｜联系</p>
+                        <h2>把需求交给我们，<br>把时间留给你</h2>
+                        <p class="sec-sub" style="margin-top: 14px; max-width: 560px">
+                            产品体验、机构采购、渠道代理与技术合作，欢迎直接联系。
+                            我们尤其希望听到一线照护者与作业人员的使用反馈——那会决定下一个版本长什么样。
+                        </p>
+                        <div class="chips" style="margin-top: 20px">
+                            <span class="chip chip--plain">机构采购</span>
+                            <span class="chip chip--plain">渠道代理</span>
+                            <span class="chip chip--plain">技术合作</span>
+                            <span class="chip chip--plain">媒体与其它</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <p class="contact-card__k">邮箱</p>
+                        <a class="contact-card__v" href="mailto:69147957@qq.com">69147957@qq.com</a>
+                        <p class="contact-card__k">地址</p>
+                        <p class="contact-card__v">安徽省淮南市</p>
+                        <p class="contact-card__k">公司</p>
+                        <p class="contact-card__v">安徽云峰智能装备有限公司</p>
+                        <a class="btn btn--primary" href="mailto:69147957@qq.com?subject=%E3%80%90%E4%BA%91%E5%B3%B0%E6%99%BA%E8%83%BD%E3%80%91%E5%90%88%E4%BD%9C%E5%92%A8%E8%AF%A2" style="margin-top: 18px">
+                            发送合作邮件
+                            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 4.5 8 8.5l6-4M2 4.5h12v7H2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                        </a>
+                        <a class="btn btn--ghost" href="about.html" style="margin-top: 10px">查看便前宝产品页</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrap">
+            <div class="footer__top">
+                <div>
+                    <a class="brand" href="index.html">
+                        <span class="brand__mark" aria-hidden="true">峰</span>
+                        <span class="brand__text">
+                            <span class="brand__name">云峰智能</span>
+                            <span class="brand__sub">Anhui Yunfeng Intelligent Equipment</span>
+                        </span>
+                    </a>
+                    <p class="footer__desc">
+                        智能康养 · 智能育儿 · 无人系统。用可落地的智能装备，
+                        把照护与作业中最难的部分交给机器。
+                    </p>
+                </div>
+
+                <div>
+                    <h4>产品</h4>
+                    <ul>
+                        <li><a href="#bed">蔼床® 护理用床形机器人</a></li>
+                        <li><a href="#usv">无人艇母港总后台</a></li>
+                        <li><a href="about.html">便前宝智能枕垫</a></li>
+                        <li><a href="#products">产品矩阵</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>公司</h4>
+                    <ul>
+                        <li><a href="#company">关于云峰</a></li>
+                        <li><a href="#contact">合作与联系</a></li>
+                        <li><a href="about.html">便前宝产品页</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <span>版权所有 © <span id="year">2026</span> 安徽云峰智能装备有限公司</span>
+                <span>安徽 · 淮南</span>
+                <span>产品图片与界面为示意，具体配置以交付版本为准</span>
+            </div>
+        </div>
+    </footer>
+
+    <button class="to-top" id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+    <script src="index.js"></script>
 </body>
 </html>
