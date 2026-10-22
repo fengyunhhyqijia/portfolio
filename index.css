@@ -641,3 +641,57 @@ a.contact-card__v:hover { color: var(--cyan); text-decoration: none; }
   .baby-stat b { font-size: 20px; }
   .hero-note { font-size: 9.5px; line-height: 1.7; }
 }
+
+/* ---------- 页脚微信二维码 ---------- */
+.footer__top--home {
+  grid-template-columns: 1.25fr .85fr .85fr auto;
+}
+
+.footer__wx {
+  justify-self: end;
+  text-align: center;
+}
+.footer__wx h4 { margin-bottom: 12px; }
+
+.wx-card {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(2, 6, 16, .35);
+  line-height: 0;
+}
+.wx-card img {
+  display: block;
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.wx-note {
+  margin-top: 10px;
+  font-size: 11px;
+  color: var(--dim);
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .footer__top--home { grid-template-columns: 1fr 1fr; }
+  .footer__top--home > div:first-child { grid-column: 1 / -1; }
+
+  .footer__wx {
+    grid-column: 1 / -1;
+    justify-self: start;
+    display: block;
+    text-align: left;
+  }
+  .footer__wx h4 { margin: 0 0 12px; }
+  .wx-note { margin-top: 10px; text-align: center; }
+}
+
+@media (max-width: 600px) {
+  .footer__top--home { grid-template-columns: 1fr; }
+  .footer__wx { display: block; }
+  .footer__wx h4 { margin-bottom: 12px; }
+  .wx-note { margin-top: 10px; text-align: center; }
+}
