@@ -1660,3 +1660,46 @@ tbody tr:hover td { background: rgba(34, 211, 238, .035); }
   .sec-head h2, .hero h1 { color: #111; -webkit-text-fill-color: #111; }
   .kpi__value, .stat__num { color: #111; }
 }
+
+/* ---------- 页脚微信二维码（about / index 共用） ---------- */
+.footer__top--qr {
+  grid-template-columns: 1.25fr .85fr .85fr auto;
+}
+
+.footer__wx {
+  justify-self: end;
+  text-align: center;
+}
+.footer__wx h4 { margin-bottom: 12px; }
+
+.wx-card {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 10px 26px rgba(2, 6, 16, .35);
+  line-height: 0;
+}
+.wx-card img {
+  display: block;
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 900px) {
+  .footer__top--qr { grid-template-columns: 1fr 1fr; }
+  .footer__top--qr > div:first-child { grid-column: 1 / -1; }
+
+  .footer__wx {
+    grid-column: 1 / -1;
+    justify-self: start;
+    display: block;
+    text-align: left;
+  }
+  .footer__wx h4 { margin: 0 0 12px; }
+}
+
+@media (max-width: 600px) {
+  .footer__top--qr { grid-template-columns: 1fr; }
+}
